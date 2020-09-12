@@ -9,6 +9,6 @@ You found out about the new upcoming game, which is still in alpha, and you thin
 
 -----------------
 
-This was my first self made program that I build to train my Java coding abilities and also have an up to date state about a game that I was and still am.
+This was my first self-made program that I build to train my Java coding abilities and also have an up to date state about a game that I was and still am interested in.
 
-This Project was for demonstration/learning purpose only
+# This Project was for demonstration/learning purpose only

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="753.0" minWidth="1082.0" prefHeight="753.0" prefWidth="1082.0" style="-fx-background-color: #757575;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FXMLDocumentController"> 
+   <children>
+      <BorderPane layoutX="15.0" layoutY="14.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="382.0" prefWidth="572.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnBard" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Bard">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCleric" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Cleric">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnFighter" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Fighter">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnMage" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Mage">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnRanger" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Ranger">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnRogue" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Rogue">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSummoner" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Summoner">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnTank" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="Tank">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnNone" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#handleBtnArche" text="None">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Arche Name:">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblResultArche" alignment="CENTER" prefHeight="44.0" prefWidth="298.0" text="-------">
+                     <font>
+                        <Font name="Calibri" size="38.0" />
+                     </font>
+                  </Label>
+                  <VBox fx:id="vBoxHyperlinks" prefHeight="185.0" prefWidth="350.0" style="-fx-background-color: #bfbfbf;">
+                     <children>
+                        <Hyperlink fx:id="hypLink1" accessibleText="Hallo" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink2" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink3" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink4" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink5" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink6" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink7" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink8" onAction="#handleHyperLink" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink9" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink10" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink11" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink12" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink13" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink14" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="hypLink15" text="">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </center>
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="467.0" prefWidth="171.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" text="Primary Archetype">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblPrimaryArche" alignment="CENTER" contentDisplay="CENTER" prefHeight="22.0" prefWidth="137.0" text="---------">
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox alignment="TOP_CENTER" prefHeight="467.0" prefWidth="188.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="172.0" text="Secondary Archetype">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblSecondaryArche" alignment="CENTER" prefHeight="26.0" prefWidth="150.0" text="-----">
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </right></BorderPane>
+   </children>
+</AnchorPane>

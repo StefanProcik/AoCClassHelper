@@ -6,6 +6,7 @@ I found the game myself only recently and wanted to know more about it, but at f
 
 # Target Scenario
 You found out about the new upcoming game, which is still in alpha, and you think its so interesting its worth to find out more about it. The problem is, that the main webpage is not informative enough for you and you want the newest state of information and progress. With my program you see the Main-Archs and can combine them like you want. By doing that you always get the newest information, without going into the internet and looking up hundreds of forums to find the little information you wanted.
+
 -----------------
 
 This was my first self made program that I build to train my Java coding abilities and also have an up to date state about a game that I was and still am.
